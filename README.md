@@ -10,23 +10,23 @@
 |---------------------|---------------------------------------------------|---------------|
 | Row ID             | Unique ID of the row                              | Dimension     |
 | Order ID           | ID of the order (one order can have multiple items)| Dimension     |
-| Order Date         | Date when order was made                          | Dimension     |
+| Order Date         | Date when order was made                          | Measure     |
 | Customer ID        | ID of the customer (one customer can make multiple orders) | Dimension     |
 | Segment            | Customer segment                                  | Dimension     |
 | City               | Order city                                        | Dimension     |
 | State              | Order state (where applicable)                   | Dimension     |
 | Country            | Order country                                    | Dimension     |
-| Country latitude   | Geographic coordinates of the order country       | Quantitative  |
-| Country longitude  | Geographic coordinates of the order country       | Quantitative  |
+| Country latitude   | Geographic coordinates of the order country       | Measure   |
+| Country longitude  | Geographic coordinates of the order country       | Measure   |
 | Region             | Region to which the order belongs                | Dimension     |
-| Market             | Market to which the order belongs                | Quantitative  |
+| Market             | Market to which the order belongs                | Dimension  |
 | Subcategory        | Product subcategory                               | Dimension     |
 | Category           | Product category                                  | Dimension     |
 | Product            | Product name                                     | Dimension     |
-| Quantity           | Number of products purchased per order            | Quantitative  |
-| Sales              | Total sales in $                                  | Quantitative  |
-| Discount           | Discount applied to the order                    | Quantitative  |
-| Profit             | Total profit for each order after discount       | Quantitative  |
+| Quantity           | Number of products purchased per order            | Measure   |
+| Sales              | Total sales in $                                  | Measure   |
+| Discount           | Discount applied to the order                    | Measure |
+| Profit             | Total profit for each order after discount       | Measure  |
 ### 2. Business questions:
 - Provide a clear overview of the business performance in international markets for the marketing team and senior management.
 - Highlight key metrics to assist senior managers in making informed decisions about market expansion and identifying suitable products for each target market.

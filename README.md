@@ -1,4 +1,4 @@
-# [POWER BI] Ecommerce Sales and Business Expansion strategy
+# [POWER BI] E-commerce Sales and Business Expansion strategy
 ## I. Introduction
 ### 1. Dataset:
 * The dataset comprises order records from a global skincare and beauty e-store, covering the period from 2020 to 2023.
